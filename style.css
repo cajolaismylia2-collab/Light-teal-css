@@ -1,0 +1,282 @@
+/*======================================
+        LIGHT TEAL THEME
+======================================*/
+
+/* Background */
+
+body {
+    background:
+        linear-gradient(
+            rgba(225,255,252,.72),
+            rgba(198,243,239,.78)
+        ),
+        url("https://raw.githubusercontent.com/cajolaismylia2-collab/Light-teal-css/main/IMG_3583.jpg")
+        center center fixed !important;
+
+    background-size: cover !important;
+
+    color: #2c5f60 !important;
+}
+
+/* Main Content */
+
+#main,
+.container.main,
+.container {
+    background: transparent !important;
+}
+
+/* Cards & Panels */
+
+.card,
+.table,
+.box,
+.alert,
+.breadcrumb,
+.feature,
+.dropdown-menu,
+.modal-content {
+
+    background: rgba(236,255,253,.88) !important;
+
+    border: 1px solid rgba(74,155,155,.20) !important;
+
+    box-shadow:
+        0 0 18px rgba(120,200,200,.25),
+        0 0 40px rgba(255,255,255,.35) !important;
+
+    backdrop-filter: blur(5px);
+}
+
+/* Headers */
+
+.card-header,
+th {
+
+    background:
+        linear-gradient(
+            90deg,
+            #bfeeee,
+            #8fd8d2
+        ) !important;
+
+    color: #2f6f70 !important;
+
+    border: none !important;
+
+    text-shadow:
+        0 0 10px rgba(255,255,255,.45),
+        0 0 20px rgba(255,255,255,.25);
+}
+
+/* Tables */
+
+.table {
+    color: #2c5f60 !important;
+}
+
+.table td,
+.table th {
+    border-color: rgba(74,155,155,.18) !important;
+}
+
+/* Navigation */
+
+.navbar {
+
+    background: rgba(228,252,250,.95) !important;
+
+    border-bottom: 1px solid rgba(74,155,155,.18) !important;
+
+    box-shadow: 0 0 25px rgba(120,200,200,.20);
+}
+
+.navbar a,
+.nav-link {
+    color: #3b7273 !important;
+}
+
+.navbar a:hover,
+.nav-link:hover {
+
+    color: #245b5c !important;
+
+    text-shadow:
+        0 0 10px rgba(180,255,255,.55),
+        0 0 20px rgba(180,255,255,.35);
+}
+
+/* Text */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+    color: #2f6f70 !important;
+
+    text-shadow:
+        0 0 10px rgba(255,255,255,.45),
+        0 0 22px rgba(255,255,255,.25);
+}
+
+p,
+span,
+div,
+td {
+
+    color: #437c7d !important;
+}
+
+/* Links */
+
+a {
+    color: #4d8b8c !important;
+}
+
+a:hover {
+
+    color: #245b5c !important;
+
+    text-shadow:
+        0 0 10px rgba(180,255,255,.50),
+        0 0 20px rgba(180,255,255,.25);
+}
+
+/* Buttons */
+
+.btn,
+button,
+input[type="submit"] {
+
+    background:
+        linear-gradient(
+            180deg,
+            #d8f8f6,
+            #bfeeee
+        ) !important;
+
+    border: 1px solid rgba(74,155,155,.35) !important;
+
+    color: #2f6f70 !important;
+
+    box-shadow:
+        0 0 18px rgba(120,200,200,.20);
+}
+
+.btn:hover,
+button:hover,
+input[type="submit"]:hover {
+
+    background:
+        linear-gradient(
+            #e8ffff,
+            #c9f7f3
+        ) !important;
+
+    box-shadow:
+        0 0 30px rgba(120,220,220,.35);
+
+    color: #245b5c !important;
+}
+
+/* Inputs */
+
+input,
+textarea,
+select {
+
+    background: rgba(236,255,253,.92) !important;
+
+    border: 1px solid rgba(74,155,155,.18) !important;
+
+    color: #2c5f60 !important;
+}
+
+/* Footer */
+
+footer {
+
+    background: rgba(228,252,250,.95) !important;
+
+    border-top: 1px solid rgba(74,155,155,.18) !important;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dffaf8;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background:
+        linear-gradient(
+            #8fd8d2,
+            #bfeeee
+        );
+
+    border-radius: 20px;
+}
+
+/* Wolvden Den Boxes */
+
+.left,
+.right,
+.cave-grid,
+.den-box,
+.user-box {
+
+    background: rgba(236,255,253,.88) !important;
+
+    border: 1px solid rgba(74,155,155,.18) !important;
+
+    box-shadow:
+        0 0 18px rgba(120,200,200,.20);
+}
+
+/* Hover Effects */
+
+.card:hover,
+.table:hover {
+
+    box-shadow:
+        0 0 30px rgba(180,255,255,.35),
+        0 0 50px rgba(120,200,200,.20) !important;
+}
+
+/* Credit */
+
+html::before {
+    content: "Made by: Mayra #170501";
+    position: fixed;
+    top: 10px;
+    right: 15px;
+
+    padding: 6px 12px;
+
+    background: rgba(236,255,253,.92);
+
+    border: 1px solid rgba(74,155,155,.20);
+
+    border-radius: 10px;
+
+    color: #2f6f70;
+
+    font-size: 12px;
+
+    text-shadow:
+        0 0 8px rgba(255,255,255,.50);
+
+    box-shadow:
+        0 0 12px rgba(120,200,200,.20);
+
+    z-index: 9999;
+
+    pointer-events: none;
+  }
